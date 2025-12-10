@@ -1,0 +1,51 @@
+# --- FastAPI & Server ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- Pydantic & Settings ---
+pydantic
+pydantic-settings
+
+# --- Database ---
+sqlalchemy[asyncio]
+asyncpg
+psycopg2-binary
+alembic
+pgvector
+psycopg-pool
+
+# --- Redis & Caching ---
+redis[hiredis]
+hiredis
+
+# --- OpenAI & Tokenization ---
+openai
+tiktoken
+
+# --- LangChain & LangGraph (Latest Compatible Versions) ---
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+langgraph-checkpoint-postgres
+
+# --- HTTP Clients ---
+httpx
+aiohttp
+
+# --- Task Queue ---
+celery[redis]
+
+# --- Utils ---
+python-dotenv
+loguru
+python-json-logger
+
+# --- Date/Time ---
+python-dateutil
+pytz
+
+# --- Testing ---
+pytest
